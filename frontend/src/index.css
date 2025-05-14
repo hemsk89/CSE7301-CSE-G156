@@ -1,0 +1,76 @@
+body {
+  background-color: #f5f7fa; /* Soft, subtle professional gray (no white) */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  background-color: #f5f7fa; /* Matches body color explicitly */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff; /* White only for card sections, clearly distinguished from background */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+
+nav {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: var(--background-color);
+  color: #333;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button-active {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-button:hover {
+  background-color: #ddd; /* lighter grey hover background */
+  color: #333; /* text remains visible */
+}
+
+input, button {
+  border-radius: var(--border-radius);
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+button {
+  background-color: #3b3b3b; /* Dark grey button */
+  color: #ffffff; /* White text for visibility */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 16px;
+}
+
+
+
+.result {
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: var(--border-radius);
+  margin-top: 20px;
+  text-align: left;
+}
